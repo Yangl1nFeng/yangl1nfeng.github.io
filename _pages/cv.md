@@ -31,7 +31,7 @@ redirect_from:
 🙋 Services
 ======
 * Journal Reviewer:
-  * Pattern Recognition.
+  * IEEE TIFS, Pattern Recognition.
 * Conference Reviewer:
   * AAAI 2026, ICLR 2026, CVPR 2026 ...
   * AAAI 2025, ICLR 2025, CVPR 2025, ICML 2025, ICCV 2025, NeurIPS 2025, PRCV 2025.
