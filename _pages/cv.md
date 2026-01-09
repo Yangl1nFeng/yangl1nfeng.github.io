@@ -23,6 +23,7 @@ redirect_from:
 
 🏆 Honors and Awards
 ======
+* 2026.1, Sichuan University Tecent Scholarship (Special Grade).
 * 2024.11, Graduate student National Scholarship.
 * 2024.9, Outstanding Graduate Student of Sichuan University.
 * 2023.10, Graduate student National Scholarship.
