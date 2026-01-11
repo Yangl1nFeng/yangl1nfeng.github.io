@@ -29,7 +29,7 @@ redirect_from:
 * Sichuan University First-Class Academic Scholarship for PhD students (2024-2026).
 * 2 \* Outstanding Graduate Student of Sichuan University. 
 
-🙋 Services
+🙋 Professional Services
 ======
 * Journal Reviewer:
   * IEEE TIFS, Pattern Recognition.
