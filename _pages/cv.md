@@ -23,11 +23,11 @@ redirect_from:
 
 🏆 Honors and Awards
 ======
-* Graduate student National Scholarship. x2
+* 2 \* Graduate student National Scholarship.
 * Sichuan University Tecent Scholarship (Special Grade).
-* Sichuan University First-Class Academic Scholarship for Master’s students. (2022-2024).
-* Sichuan University First-Class Academic Scholarship for PhD students. (2024-2026).
-* Outstanding Graduate Student of Sichuan University. x2
+* Sichuan University First-Class Academic Scholarship for Master’s students (2022-2024).
+* Sichuan University First-Class Academic Scholarship for PhD students (2024-2026).
+* 2 \* Outstanding Graduate Student of Sichuan University. 
 
 🙋 Services
 ======
