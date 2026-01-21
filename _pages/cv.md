@@ -23,6 +23,7 @@ redirect_from:
 
 🏆 Honors and Awards
 ======
+* **Doctoral Program of the CAST Young Science and Technology Talent Cultivation Project.**
 * 2 \* Graduate student National Scholarship.
 * Sichuan University Tecent Scholarship (Special Grade).
 * Sichuan University First-Class Academic Scholarship for Master’s students (2022-2024).
