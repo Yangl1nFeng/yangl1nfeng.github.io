@@ -33,7 +33,7 @@ redirect_from:
 🙋 Professional Services
 ======
 * Journal Reviewer:
-  * IEEE TIP, IEEE TIFS, IEEE TCSVT, IEEE TSMC, Pattern Recognition.
+  * IEEE TIP, IEEE TIFS, IEEE TCSVT, IEEE TSMC, EWSA, Pattern Recognition.
 * Conference Reviewer:
   * AAAI 2026, ICLR 2026, CVPR 2026, ICML 2026, ECCV 2026 ...
   * AAAI 2025, ICLR 2025, CVPR 2025, ICML 2025, ICCV 2025, NeurIPS 2025, PRCV 2025.
