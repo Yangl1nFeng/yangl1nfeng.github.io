@@ -18,7 +18,7 @@ My research interests mainly focus on multimodal learning, cross-domain learning
 
 🎇News
 ======
-- \[**Publications**\]: 2026.3.28, one paper was accepted by IEEE TPAMI (CCF-A)! Thanks to all coauthors! 
+- \[**Publications**\]: 2026.3.28, one paper was accepted by IEEE TPAMI (CCF-A)! Thanks to all coauthors! 🎉🎉
 - \[**Awards**\]: 2026.1.9. Honored to win the Sichuan University Tecent Scholarship (Special Grade)! ✌️
 - \[**Awards**\]: 2025.12.15. Amazing! I am honored to have been selected for the Doctoral Program of the CAST Young Science and Technology Talent Cultivation Project. 🎉🎉
 - \[**Publications**\]: 2025.9.18. Amazing! Three papers were accepted by the Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025). One paper was accepted as Oral (accept rate=0.36%)! Thanks to all coauthors! 🎉🎉
