@@ -18,6 +18,7 @@ My research interests mainly focus on multimodal learning, cross-domain learning
 
 🎇News
 ======
+- \[**Publications**\]: 2026.3.28, one paper was accepted by TPAMI. Thanks to all coauthors! 
 - \[**Awards**\]: 2026.1.9. Honored to win the Sichuan University Tecent Scholarship (Special Grade)! ✌️
 - \[**Awards**\]: 2025.12.15. Amazing! I am honored to have been selected for the Doctoral Program of the CAST Young Science and Technology Talent Cultivation Project. 🎉🎉
 - \[**Publications**\]: 2025.9.18. Amazing! Three papers were accepted by the Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025). One paper was accepted as Oral (accept rate=0.36%)! Thanks to all coauthors! 🎉🎉
@@ -25,9 +26,7 @@ My research interests mainly focus on multimodal learning, cross-domain learning
 - \[**Publications**\]: 2025.1.19, one paper was accepted by IEEE Transactions on Multimedia (TMM 2025). Thanks to all coauthors! 🎉🎉
 - \[**Publications**\]: 2024.12.10, one paper was accepted by AAAI Conference on Artificial Intelligence (AAAI 2025). Congrats to Ziniu and coauthors! 🎉🎉
 - \[**Awards**\]: 2024.11.1, I received a Graduate Student National Scholarship! ✌️
-- \[**Awards**\]: 2024.9.1, I was awarded the First-Class Academic Scholarship for PhD students at Sichuan University, which supported my studies from 2024 to 2026.✌️
 - \[**Awards**\]: 2023.10.13, I received a Graduate Student National Scholarship! ✌️
 - \[**Publications**\]: 2023.7.26, one paper was accepted by ACM Multimedia (ACM MM 2023). Thanks to all coauthors! 🎉🎉
 - \[**Publications**\]: 2023.2.28, one paper was accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2023). Thanks to all coauthors! 🎉🎉
-- \[**Awards**\]: 2022.9.1, I was awarded the First-Class Academic Scholarship for Master’s students at Sichuan University, which supported my studies from 2022 to 2024.✌️
 - 2021.9.1, I set out on my research journey.
