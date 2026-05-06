@@ -18,6 +18,7 @@ My research interests mainly focus on multimodal learning, cross-domain learning
 
 🎇News
 ======
+- \[**Publications**\]: 2025.9.18. One papers were accepted by the Forty-Third International Conference on Machine Learning (ICML 2026). One paper was accepted as Spotlight! Thanks to all coauthors! 🎉🎉
 - \[**Publications**\]: 2026.3.28, one paper was accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI 2026)! Thanks to all coauthors! 🎉🎉
 - \[**Awards**\]: 2026.1.9. Honored to win the Sichuan University Tecent Scholarship (Special Grade)! ✌️
 - \[**Awards**\]: 2025.12.15. Amazing! I am honored to have been selected for the Doctoral Program of the CAST Young Science and Technology Talent Cultivation Project. 🎉🎉
