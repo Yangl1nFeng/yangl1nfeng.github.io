@@ -11,8 +11,8 @@ redirect_from:
 <section class="home-hero" aria-labelledby="home-title">
   <p class="eyebrow">Multimodal learning · 3D vision &amp; language</p>
   <h1 id="home-title">Yanglin Feng <span class="home-hero__chinese">奉仰麟</span></h1>
-  <p class="home-hero__lead">I study how models connect language, images, and 3D scenes—especially when data is noisy or domains change.</p>
-  <p>I am a Ph.D. student at the College of Computer Science, Sichuan University, advised by Prof. <a href="https://cs.scu.edu.cn/info/1282/13563.htm">Dezhong Peng</a> and Prof. <a href="https://penghu-cs.github.io/">Peng Hu</a>. At <a href="https://s.alibaba.com/cn/LargeModel/">Alibaba AAGI Lab</a>, I work with Longtao Huang and Ting Ma on hallucination mitigation in multimodal large language models and the Yuvion LLM project. Recently, I have also explored interactive learning and LLM-driven agents.</p>
+  <p>Hi! My name is Yanglin Feng (奉仰麟). I’m a Ph.D. student (since the fall of 2024) at the College of Computer Science, Sichuan University, fortunately advised by Prof. <a href="https://cs.scu.edu.cn/info/1282/13563.htm">Dezhong Peng</a> and Prof. <a href="https://penghu-cs.github.io/">Peng Hu</a>. Currently, I work as a research intern at <a href="https://s.alibaba.com/cn/LargeModel/">Alibaba AAGI Lab</a>, led by Longtao Huang and advised by Ting Ma, where I conduct research on hallucination mitigation in MLLMs and participate in the Yuvion LLM project.</p>
+  <p>My research interests mainly focus on multimodal learning, cross-domain learning, and 3D vision &amp; language. Recently, I’ve been conducting research related to interactive learning and LLM-driven agent.</p>
   <div class="hero-links">
     <a class="hero-links__primary" href="{{ '/portfolio/' | relative_url }}">Explore publications <span aria-hidden="true">↗</span></a>
     <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
