@@ -1,0 +1,46 @@
+{% assign paper = include.publication %}
+{% if include.detail %}
+<div class="publication-card{% unless paper.image %} publication-card--text{% endunless %} publication-card--detail">
+{% else %}
+<article class="publication-card{% unless paper.image %} publication-card--text{% endunless %}" aria-labelledby="publication-{{ paper.slug | default: paper.title | slugify }}">
+{% endif %}
+  {% if paper.image %}
+    {% assign image_path = paper.image | relative_url %}
+    <a class="publication-card__figure" href="{{ image_path }}" aria-label="View full-size figure for {{ paper.title | escape }}">
+      <img src="{{ image_path }}" alt="Research figure for {{ paper.title | escape }}" loading="lazy" decoding="async">
+    </a>
+  {% endif %}
+
+  <div class="publication-card__body">
+    {% unless include.detail %}
+      <div class="publication-card__eyebrow">
+        <span>{{ paper.venue_short | default: paper.venue | escape }}</span>
+        <span aria-hidden="true" class="publication-card__dot"></span>
+        <span>{{ paper.year }}</span>
+      </div>
+      <h3 class="publication-card__title" id="publication-{{ paper.slug | default: paper.title | slugify }}">
+        <a href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a>
+      </h3>
+    {% endunless %}
+
+    <p class="publication-card__authors">
+      {% for author in paper.authors %}{% unless forloop.first %}, {% endunless %}{% if author.self %}<strong>{{ author.name | escape }}</strong>{% else %}{{ author.name | escape }}{% endif %}{% if author.marker %}<sup>{{ author.marker | escape }}</sup>{% endif %}{% endfor %}
+    </p>
+
+    <p class="publication-card__venue">
+      {{ paper.venue | escape }}{% if paper.event_detail %}, {{ paper.event_detail | escape }}{% else %}, {{ paper.year }}.{% endif %}
+    </p>
+
+    {% if paper.note or paper.paper_url or paper.code_url %}
+      <div class="publication-card__footer">
+        {% if paper.note %}<span class="publication-card__note">{{ paper.note | escape }}</span>{% endif %}
+        {% if paper.paper_url or paper.code_url %}
+          <div class="publication-card__links">
+            {% if paper.paper_url %}<a href="{{ paper.paper_url | escape }}" aria-label="Read {{ paper.title | escape }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if paper.code_url %}<a href="{{ paper.code_url | escape }}" aria-label="View code for {{ paper.title | escape }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+{% if include.detail %}</div>{% else %}</article>{% endif %}

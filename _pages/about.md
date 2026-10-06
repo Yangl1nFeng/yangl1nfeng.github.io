@@ -1,34 +1,54 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
+excerpt: "Yanglin Feng — multimodal learning and 3D vision research"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi! My name is Yanglin Feng (奉仰麟). I’m a Ph.D. student (since the fall of 2024) at the College of Computer Science, Sichuan University, fortunately advised by Prof. [Dezhong Peng](https://cs.scu.edu.cn/info/1282/13563.htm) and Prof. [Peng Hu](https://penghu-cs.github.io/). Currently, I work as a research intern at [Alibaba AAGI Lab](https://s.alibaba.com/cn/LargeModel/), led by Longtao Huang and advised by Ting Ma, where I conduct research on hallucination mitigation in MLLMs and participate in the Yuvion LLM project.
+<section class="home-hero" aria-labelledby="home-title">
+  <p class="eyebrow">Multimodal learning · 3D vision &amp; language</p>
+  <h1 id="home-title">Yanglin Feng <span class="home-hero__chinese">奉仰麟</span></h1>
+  <p class="home-hero__lead">I study how models connect language, images, and 3D scenes—especially when data is noisy or domains change.</p>
+  <p>I am a Ph.D. student at the College of Computer Science, Sichuan University, advised by Prof. <a href="https://cs.scu.edu.cn/info/1282/13563.htm">Dezhong Peng</a> and Prof. <a href="https://penghu-cs.github.io/">Peng Hu</a>. At <a href="https://s.alibaba.com/cn/LargeModel/">Alibaba AAGI Lab</a>, I work with Longtao Huang and Ting Ma on hallucination mitigation in multimodal large language models and the Yuvion LLM project. Recently, I have also explored interactive learning and LLM-driven agents.</p>
+  <div class="hero-links">
+    <a class="hero-links__primary" href="{{ '/portfolio/' | relative_url }}">Explore publications <span aria-hidden="true">↗</span></a>
+    <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
 
-My research interests mainly focus on multimodal learning, cross-domain learning, and 3D vision & language. Recently, I’ve been conducting research related to interactive learning and LLM-driven agent.
+<section class="home-section" aria-labelledby="focus-title">
+  <div class="section-heading"><span class="section-heading__number">01</span><h2 id="focus-title">Research focus</h2></div>
+  <div class="research-grid">
+    <article class="research-card"><span class="research-card__number">01</span><h3>Multimodal learning</h3><p>Cross-modal retrieval with noisy labels and mismatched correspondences.</p></article>
+    <article class="research-card"><span class="research-card__number">02</span><h3>Cross-domain learning</h3><p>Unsupervised domain adaptation and retrieval across changing data distributions.</p></article>
+    <article class="research-card"><span class="research-card__number">03</span><h3>3D vision &amp; language</h3><p>Point cloud–text matching and reasoning about objects across 3D scenes.</p></article>
+  </div>
+</section>
 
-- *Multimodal Learning*: Cross-modal retrieval with noisy labels/correspondence
-- *Cross-domain Learning*: Unsupervised domain adaptation and cross-domain retrieval
-- *3D Vision & Language*: Pointcloud-text matching and (cross-scene) 3D object reasoning
-
-🎇News
-======
-- \[**Publications**\]: 2026.9.14, one paper was accepted by one paper was accepted by IEEE Transactions on Knowledge and Data Engineering (TKDE 2026). Congrats to Yongxiang and coauthors! 🎉🎉
-- \[**Publications**\]: 2026.5.1. One papers were accepted by the Forty-Third International Conference on Machine Learning (ICML 2026). Thanks to all coauthors! 🎉🎉
-- \[**Publications**\]: 2026.3.28, one paper was accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI 2026)! Thanks to all coauthors! 🎉🎉
-- \[**Awards**\]: 2026.1.9. Honored to win the Sichuan University Tecent Scholarship (Special Grade)! ✌️
-- \[**Awards**\]: 2025.12.15. Amazing! I am honored to have been selected for the Doctoral Program of the CAST Young Science and Technology Talent Cultivation Project. 🎉🎉
-- \[**Publications**\]: 2025.9.18. Amazing! Three papers were accepted by the Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025). Thanks to all coauthors! 🎉🎉
-- \[**Publications**\]: 2025.7.5, one paper was accepted by ACM Multimedia (ACM MM 2025). Congrats to Ao and coauthors! 🎉🎉
-- \[**Publications**\]: 2025.1.19, one paper was accepted by IEEE Transactions on Multimedia (TMM 2025). Thanks to all coauthors! 🎉🎉
-- \[**Publications**\]: 2024.12.10, one paper was accepted by AAAI Conference on Artificial Intelligence (AAAI 2025). Congrats to Ziniu and coauthors! 🎉🎉
-- \[**Awards**\]: 2024.11.1, I received a Graduate Student National Scholarship! ✌️
-- \[**Awards**\]: 2023.10.13, I received a Graduate Student National Scholarship! ✌️
-- \[**Publications**\]: 2023.7.26, one paper was accepted by ACM Multimedia (ACM MM 2023). Thanks to all coauthors! 🎉🎉
-- \[**Publications**\]: 2023.2.28, one paper was accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2023). Thanks to all coauthors! 🎉🎉
-- 2021.9.1, I set out on my research journey.
+<section class="home-section" aria-labelledby="news-title">
+  <div class="section-heading"><span class="section-heading__number">02</span><h2 id="news-title">News</h2></div>
+  <ol class="news-list">
+    <li><time datetime="2026-09-14">Sep 2026</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by IEEE Transactions on Knowledge and Data Engineering (TKDE). Congratulations to Yongxiang and coauthors!</p></div></li>
+    <li><time datetime="2026-05-01">May 2026</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by ICML 2026. Thanks to all coauthors!</p></div></li>
+    <li><time datetime="2026-03-28">Mar 2026</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).</p></div></li>
+    <li><time datetime="2026-01-09">Jan 2026</time><div><span class="news-list__tag">Award</span><p>Received the Sichuan University Tencent Scholarship (Special Grade).</p></div></li>
+    <li><time datetime="2025-12-15">Dec 2025</time><div><span class="news-list__tag">Award</span><p>Selected for the Doctoral Program of the CAST Young Science and Technology Talent Cultivation Project.</p></div></li>
+  </ol>
+  <details class="news-archive">
+    <summary>Earlier updates</summary>
+    <ol class="news-list">
+      <li><time datetime="2025-09-18">Sep 2025</time><div><span class="news-list__tag">Publication</span><p>Three papers were accepted by NeurIPS 2025.</p></div></li>
+      <li><time datetime="2025-07-05">Jul 2025</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by ACM Multimedia 2025. Congratulations to Ao and coauthors!</p></div></li>
+      <li><time datetime="2025-01-19">Jan 2025</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by IEEE Transactions on Multimedia (TMM).</p></div></li>
+      <li><time datetime="2024-12-10">Dec 2024</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by AAAI 2025. Congratulations to Ziniu and coauthors!</p></div></li>
+      <li><time datetime="2024-11-01">Nov 2024</time><div><span class="news-list__tag">Award</span><p>Received a Graduate Student National Scholarship.</p></div></li>
+      <li><time datetime="2023-10-13">Oct 2023</time><div><span class="news-list__tag">Award</span><p>Received a Graduate Student National Scholarship.</p></div></li>
+      <li><time datetime="2023-07-26">Jul 2023</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by ACM Multimedia 2023.</p></div></li>
+      <li><time datetime="2023-02-28">Feb 2023</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by CVPR 2023.</p></div></li>
+      <li><time datetime="2021-09-01">Sep 2021</time><div><span class="news-list__tag">Milestone</span><p>Started my research journey.</p></div></li>
+    </ol>
+  </details>
+</section>
