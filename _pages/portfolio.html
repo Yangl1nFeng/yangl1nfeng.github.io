@@ -1,16 +1,37 @@
 ---
 layout: archive
-title: "Selected Publications"
+title: "Publications"
 permalink: /portfolio/
 author_profile: true
 ---
 
-* indicates equal contribution.
+<div class="publications-page">
+  <p class="publications-page__intro">Research in multimodal learning, cross-modal retrieval, and robust alignment.</p>
+  <p class="publications-page__note"><span aria-hidden="true">*</span> indicates equal contribution.</p>
 
-{% include base_path %}
+  <section class="publication-section" aria-labelledby="selected-publications-title">
+    <div class="publication-section__heading">
+      <span class="publication-section__eyebrow">Research highlights</span>
+      <h2 id="selected-publications-title">Selected Publications</h2>
+    </div>
+    <div class="publication-list">
+      {% assign selected_papers = site.portfolio | where: "section", "selected" | sort: "order" %}
+      {% for paper in selected_papers %}
+        {% include publication-card.html publication=paper %}
+      {% endfor %}
+    </div>
+  </section>
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+  <section class="publication-section publication-section--other" aria-labelledby="other-publications-title">
+    <div class="publication-section__heading">
+      <span class="publication-section__eyebrow">Further work</span>
+      <h2 id="other-publications-title">Other Publications</h2>
+    </div>
+    <div class="publication-list publication-list--other">
+      {% assign other_papers = site.portfolio | where: "section", "other" | sort: "order" %}
+      {% for paper in other_papers %}
+        {% include publication-card.html publication=paper %}
+      {% endfor %}
+    </div>
+  </section>
+</div>
