@@ -1,11 +1,11 @@
 /* Publications use the same restrained palette as the rest of the site. */
 .publications-page,
 .publication-card--detail {
-  --publication-ink: #27383a;
-  --publication-muted: #667878;
-  --publication-accent: #2e6b70;
-  --publication-border: #dce5e2;
-  --publication-canvas: #f7f8f5;
+  --publication-ink: #293b50;
+  --publication-muted: #5f738a;
+  --publication-accent: #2b5e97;
+  --publication-border: #dce5f1;
+  --publication-canvas: #f7f9fd;
   --publication-card: #fff;
 }
 
@@ -65,7 +65,7 @@
   border: 1px solid var(--publication-border);
   border-radius: 14px;
   background: var(--publication-card);
-  box-shadow: 0 10px 28px rgba(39, 56, 58, 0.035);
+  box-shadow: 0 10px 28px rgba(35, 64, 105, 0.04);
 }
 
 .publication-card:not(.publication-card--text) {

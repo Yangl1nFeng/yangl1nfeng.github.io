@@ -30,6 +30,7 @@ redirect_from:
 <section class="research-section" aria-labelledby="honors-title">
   <h2 id="honors-title">Honors & Awards</h2>
   <ul class="simple-list">
+    <li>Doctoral Student National Scholarship <span>2026</span></li>
     <li>Doctoral Program of the CAST Young Science and Technology Talent Cultivation Project</li>
     <li>Graduate Student National Scholarship <span>× 2</span></li>
     <li>Sichuan University Tencent Scholarship (Special Grade)</li>

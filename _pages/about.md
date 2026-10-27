@@ -19,18 +19,10 @@ redirect_from:
   </div>
 </section>
 
-<section class="home-section" aria-labelledby="focus-title">
-  <div class="section-heading"><span class="section-heading__number">01</span><h2 id="focus-title">Research focus</h2></div>
-  <div class="research-grid">
-    <article class="research-card"><span class="research-card__number">01</span><h3>Multimodal learning</h3><p>Cross-modal retrieval with noisy labels and mismatched correspondences.</p></article>
-    <article class="research-card"><span class="research-card__number">02</span><h3>Cross-domain learning</h3><p>Unsupervised domain adaptation and retrieval across changing data distributions.</p></article>
-    <article class="research-card"><span class="research-card__number">03</span><h3>3D vision &amp; language</h3><p>Point cloud–text matching and reasoning about objects across 3D scenes.</p></article>
-  </div>
-</section>
-
 <section class="home-section" aria-labelledby="news-title">
-  <div class="section-heading"><span class="section-heading__number">02</span><h2 id="news-title">News</h2></div>
+  <div class="section-heading"><h2 id="news-title">News</h2></div>
   <ol class="news-list">
+    <li><time datetime="2026-10">Oct 2026</time><div><span class="news-list__tag">Award</span><p>Received the Doctoral Student National Scholarship.</p></div></li>
     <li><time datetime="2026-09-14">Sep 2026</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by IEEE Transactions on Knowledge and Data Engineering (TKDE). Congratulations to Yongxiang and coauthors!</p></div></li>
     <li><time datetime="2026-05-01">May 2026</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by ICML 2026. Thanks to all coauthors!</p></div></li>
     <li><time datetime="2026-03-28">Mar 2026</time><div><span class="news-list__tag">Publication</span><p>One paper was accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).</p></div></li>
