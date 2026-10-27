@@ -24,7 +24,7 @@ summary:focus-visible {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #203335;
+  color: #20354f;
   letter-spacing: -0.025em;
   line-height: 1.28;
 }
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .greedy-nav a {
-  color: #526668;
+  color: #536a84;
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex !important;
   align-items: center;
   gap: 0.55rem;
-  color: #203335 !important;
+  color: #20354f !important;
   font-size: 0.95rem !important;
   font-weight: 700 !important;
   letter-spacing: -0.03em !important;
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 .page__title,
 .archive > .page__title {
   margin-bottom: 1.4rem;
-  color: #203335;
+  color: #20354f;
   font-size: clamp(2rem, 3vw, 2.7rem);
   font-weight: 700;
   letter-spacing: -0.045em;
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .page__content,
 .archive {
-  color: #354749;
+  color: #354b63;
 }
 
 .page__content h2 {
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar {
-  color: #526567;
+  color: #586d86;
 }
 
 .author__avatar img {
@@ -144,23 +144,23 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
   border: 0;
   border-radius: 1.1rem;
-  box-shadow: 0 8px 24px rgba(35, 68, 68, 0.1);
+  box-shadow: 0 8px 24px rgba(35, 64, 105, 0.1);
 }
 
 .sidebar .author__name {
-  color: #203335;
+  color: #20354f;
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.03em;
 }
 
 .author__bio {
-  color: #607476;
+  color: #566d87;
   line-height: 1.5;
 }
 
 .author__urls a {
-  color: #526668;
+  color: #536a84;
   font-size: 0.88rem;
   font-weight: 500;
 }
@@ -171,6 +171,34 @@ h1, h2, h3, h4, h5, h6 {
 
 .author__urls i {
   color: $primary-color;
+}
+
+.visitor-map {
+  clear: both;
+  width: 100%;
+  max-width: 250px;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid $border-color;
+}
+
+.visitor-map__label {
+  margin: 0 0 0.65rem;
+  color: #536a84;
+  font-size: 0.78rem !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.visitor-map a,
+.visitor-map img {
+  display: block;
+  width: 100%;
+}
+
+.visitor-map img {
+  height: auto;
+  border-radius: 0.35rem;
 }
 
 .eyebrow {
@@ -188,8 +216,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: clamp(1.7rem, 4vw, 3.4rem);
   border: 1px solid $border-color;
   border-radius: 1.4rem;
-  background: linear-gradient(135deg, #fff 0%, #f0f6f2 100%);
-  box-shadow: 0 15px 45px rgba(36, 73, 72, 0.045);
+  background: linear-gradient(135deg, #fff 0%, #edf5ff 100%);
+  box-shadow: 0 15px 45px rgba(35, 64, 105, 0.045);
 }
 
 .home-hero::before {
@@ -214,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 .home-hero__chinese {
   display: inline-block;
   margin-left: 0.35rem;
-  color: #6d8c89;
+  color: #55718f;
   font-size: 0.38em;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -225,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 .home-hero p {
   max-width: 72ch;
   margin-bottom: 0.95rem;
-  color: #4a5e60;
+  color: #4e627b;
   font-size: 0.98rem;
   line-height: 1.7;
 }
@@ -250,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-links a:hover {
-  color: #1d4f53;
+  color: #214e82;
   text-decoration: underline;
 }
 
@@ -262,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-links .hero-links__primary:hover {
-  background: #245b60;
+  background: #245387;
   color: #fff;
   text-decoration: none;
 }
@@ -283,16 +311,9 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading h2 {
   margin: 0 0 0.7rem;
   border: 0;
-  color: #203335;
+  color: #20354f;
   font-size: 1.5rem;
   font-weight: 700;
-}
-
-.section-heading__number {
-  color: $primary-color;
-  font-size: 0.75rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
 }
 
 .research-grid {
@@ -317,14 +338,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .research-card h3 {
   margin: 0.8rem 0 0.45rem;
-  color: #263b3d;
+  color: #263c59;
   font-size: 1.02rem;
   font-weight: 700;
 }
 
 .research-card p {
   margin: 0;
-  color: #627476;
+  color: #566d87;
   font-size: 0.88rem;
   line-height: 1.55;
 }
@@ -345,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .news-list time {
-  color: #627678;
+  color: #566d87;
   font-size: 0.83rem;
   font-weight: 700;
   white-space: nowrap;
@@ -363,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .news-list p {
   margin: 0 !important;
-  color: #3d5052;
+  color: #40566f;
   line-height: 1.55;
 }
 
@@ -387,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 .page-intro {
   max-width: 66ch;
   margin-top: -0.2rem;
-  color: #5b6e70;
+  color: #5d728c;
   font-size: 1.08rem;
   line-height: 1.65;
 }
@@ -396,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 1.1rem;
   padding-bottom: 0.55rem;
   border-bottom: 1px solid $border-color;
-  color: #203335;
+  color: #20354f;
   font-size: 1.42rem;
 }
 
@@ -421,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .experience-item p {
   margin: 0;
-  color: #627476;
+  color: #566d87;
   font-size: 0.9rem;
 }
 
@@ -432,7 +453,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .simple-list li {
   padding: 0.28rem 0;
-  color: #3d5052;
+  color: #40566f;
 }
 
 .simple-list li::marker {
@@ -440,7 +461,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .simple-list span {
-  color: #6e8384;
+  color: #566d87;
   font-size: 0.85rem;
 }
 
@@ -464,12 +485,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .service-grid p {
   margin: 0;
-  color: #627476;
+  color: #566d87;
   font-size: 0.89rem;
 }
 
 .page__footer {
-  background: #eef3ef;
+  background: #edf3fb;
   border-color: $border-color;
 }
 
@@ -491,12 +512,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-footer strong {
-  color: #203335;
+  color: #20354f;
   font-size: 0.9rem;
 }
 
 .site-footer span {
-  color: #688082;
+  color: #566d87;
   font-size: 0.78rem;
 }
 
@@ -508,14 +529,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-footer__links a {
-  color: #47666a;
+  color: #456b98;
   font-size: 0.82rem;
   font-weight: 600;
 }
 
 .page__footer-copyright {
   margin-top: 1.4rem;
-  color: #718586;
+  color: #566d87;
   font-size: 0.73rem;
 }
 
@@ -540,6 +561,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 1.8rem;
     height: 1.8rem;
     font-size: 0.68rem;
+  }
+
+  .visitor-map {
+    margin-top: 1rem;
   }
 
   .home-hero__chinese {
