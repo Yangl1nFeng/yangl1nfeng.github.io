@@ -9,12 +9,35 @@ redirect_from:
 
 <p class="page-intro">My work explores robust learning across modalities and scenes, with a focus on retrieval, adaptation, and 3D understanding.</p>
 
+<section class="research-section" aria-labelledby="work-title">
+  <h2 id="work-title">Work experience</h2>
+  <div class="experience-list">
+    <div class="experience-item">
+      <span class="experience-item__date">2026.08 — 2027.01</span>
+      <div><h3>Algorithm Intern</h3><p>Alibaba Group</p></div>
+      <span class="experience-item__logo" aria-hidden="true"><img src="{{ '/images/alibaba-logo.svg' | relative_url }}" width="773" height="122" alt=""></span>
+    </div>
+  </div>
+</section>
+
 <section class="research-section" aria-labelledby="education-title">
   <h2 id="education-title">Education</h2>
   <div class="experience-list">
-    <div class="experience-item"><span>2024 — present</span><div><h3>Ph.D. in Computer Science</h3><p>College of Computer Science, Sichuan University · Chengdu, China</p></div></div>
-    <div class="experience-item"><span>2022 — 2024</span><div><h3>M.S. studies, transferred to Ph.D.</h3><p>College of Computer Science, Sichuan University · Chengdu, China</p></div></div>
-    <div class="experience-item"><span>2018 — 2022</span><div><h3>Undergraduate studies</h3><p>College of Software Engineering, Sichuan University · Chengdu, China</p></div></div>
+    <div class="experience-item">
+      <span class="experience-item__date">2024 — present</span>
+      <div><h3>Ph.D. in Computer Science</h3><p>College of Computer Science, Sichuan University · Chengdu, China</p></div>
+      <span class="experience-item__logo" aria-hidden="true"><img src="{{ '/images/sichuan-university-seal.jpg' | relative_url }}" width="245" height="256" alt=""></span>
+    </div>
+    <div class="experience-item">
+      <span class="experience-item__date">2022 — 2024</span>
+      <div><h3>M.S. studies, transferred to Ph.D.</h3><p>College of Computer Science, Sichuan University · Chengdu, China</p></div>
+      <span class="experience-item__logo" aria-hidden="true"><img src="{{ '/images/sichuan-university-seal.jpg' | relative_url }}" width="245" height="256" alt=""></span>
+    </div>
+    <div class="experience-item">
+      <span class="experience-item__date">2018 — 2022</span>
+      <div><h3>Undergraduate studies</h3><p>College of Software Engineering, Sichuan University · Chengdu, China</p></div>
+      <span class="experience-item__logo" aria-hidden="true"><img src="{{ '/images/sichuan-university-seal.jpg' | relative_url }}" width="245" height="256" alt=""></span>
+    </div>
   </div>
 </section>
 
